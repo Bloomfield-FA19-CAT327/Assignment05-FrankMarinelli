@@ -15,7 +15,12 @@ public class GameController : MonoBehaviour {
 	//code used is from a previous project from a different class. Its changed around for this assignment.
 
 	private void OnTriggerEnter(Collider other) {
-		
+		if (GameObject.FindGameObjectWithTag("Enemy")) {
+			
+		}
+		if (GameObject.FindGameObjectWithTag("Win")) {
+
+		}
 	}
 
 
