@@ -12,7 +12,7 @@ public class GameController : MonoBehaviour {
 		counterTime += Time.deltaTime;
 		counterText.text = "Time: " + Mathf.Round(counterTime).ToString();
 	}
-	//code used is from a previous project from a different class.
+	//code used is from a previous project from a different class. Its changed around for this assignment.
 
 	private void OnTriggerEnter(Collider other) {
 		
