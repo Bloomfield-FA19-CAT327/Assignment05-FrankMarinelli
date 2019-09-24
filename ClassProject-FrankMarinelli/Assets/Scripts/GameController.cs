@@ -13,4 +13,10 @@ public class GameController : MonoBehaviour {
 		counterText.text = "Time: " + Mathf.Round(counterTime).ToString();
 	}
 	//code used is from a previous project from a different class.
+
+	private void OnTriggerEnter(Collider other) {
+		
+	}
+
+
 }
